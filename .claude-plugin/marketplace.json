@@ -1,0 +1,17 @@
+{
+  "name": "kestrel-plugins",
+  "owner": {
+    "name": "Kestrel Portfolio",
+    "email": "support@kestrelportfolio.com"
+  },
+  "metadata": {
+    "description": "Plugins for integrating Kestrel Portfolio with AI coding agents"
+  },
+  "plugins": [
+    {
+      "name": "kestrel",
+      "source": "./plugins/kestrel",
+      "description": "Kestrel Portfolio integration for Claude Code. Browse properties, leases, and portfolio data."
+    }
+  ]
+}
